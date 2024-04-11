@@ -1,6 +1,8 @@
-The provided code is a comprehensive script designed for cryptocurrency price prediction and visualisation, focusing on Bitcoin (BTC) and Ethereum (ETH). It encompasses several stages of data processing, model training, prediction, and visualization, aiming to forecast future cryptocurrency prices based on historical data. Here's an expanded overview of the key components and functionalities within the script:
+The provided code is a comprehensive script designed for cryptocurrency price prediction and visualisation, focusing on Bitcoin (BTC) and Ethereum (ETH). It encompasses several stages of data processing, model training, prediction, and visualisation, aiming to forecast future cryptocurrency prices based on historical data. Here's an expanded overview of the key components and functionalities within the script:
 
-Data Retrieval: The script uses the yfinance library to fetch historical price data for BTC and ETH from Yahoo Finance. This data includes open, high, low, close prices, and volume, which are crucial for analysing market trends.
+Data Retrieval: 
+
+The script uses the yfinance library to fetch historical price data for BTC and ETH from Yahoo Finance. This data includes open, high, low, close prices, and volume, which are crucial for analysing market trends.
 
 Data Preprocessing:
 
