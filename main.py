@@ -16,6 +16,14 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LassoCV
 import numpy as np
 import re
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Access the API key
+api_key = os.getenv('API_KEY')
 
 # Define the crypto symbols
 ticker_symbols = ['BTC-USD', 'ETH-USD']
