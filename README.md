@@ -35,4 +35,4 @@ Output:
 Saves various outputs, including preprocessed data, model predictions, and performance metrics, to CSV files for further analysis or reporting.
 Accuracy and Error Analysis: Calculates the Mean Absolute Percentage Error (MAPE) and overall accuracy for each model, providing insights into the predictive reliability of the models.
 
-This script represents a comprehensive approach to cryptocurrency price forecasting, integrating data retrieval, preprocessing, modeling, and visualisation into a single automated workflow. It leverages machine learning techniques to analyze historical data and predict future market trends, offering valuable insights for investors and traders.
+This script represents a comprehensive approach to cryptocurrency price forecasting, integrating data retrieval, preprocessing, modeling, and visualisation into a single automated workflow. It leverages machine learning techniques to analyse historical data and predict future market trends, offering valuable insights for investors and traders.
