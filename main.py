@@ -22,8 +22,9 @@ import os
 # Load environment variables from .env file
 load_dotenv()
 
-# Access the API key
+# Access the API key and API secret
 api_key = os.getenv('API_KEY')
+api_secret = os.getenv('API_SECRET')
 
 # Define the crypto symbols
 ticker_symbols = ['BTC-USD', 'ETH-USD']
@@ -749,8 +750,8 @@ while datetime.now() < (start_date + timedelta(days=2 * 365) + timedelta(days=1)
 
         # Initialise the Binance client
         exchange = ccxt.binance({
-            'apiKey': '2eEqIn1zHBS42RwMjFdQaUNVctCtICTesovUf59oOiV3ffg0r3XVH6e3sI3Jwm1Q',
-            'secret': 'Xeq9r1uzwTnsRQTlG2csAPmi92zNYQuS3ESXSls4wOkoAOgimJF0Gm8d91mpHZaQ',
+            'apiKey': 'api_key',
+            'secret': 'api_secret',
         })
 
         def update_plot(timeframe):
